@@ -1,0 +1,64 @@
+    .pTitle {
+        font-family: 'PT Sans', serif;
+        text-align: center;
+        background-image: ;
+        font-size: 100px;
+      }
+    body {
+        background-image: url(./covers/header.jpeg);
+        background-position: top,;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+     .pinku {
+
+        border-style:double;
+        text-align: center;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/004/706/540/large/esben-lash-rasmussen-riot-lol-bloodmoon-jihn-el-v017-copy.jpg?1485675031);
+        background-position: top, center;
+        background-repeat: no-repeat;
+      }
+      .ign  {
+        font-family: 'Finlandica', sans-serif;
+        border
+        border-style: double;
+      }
+      .content {
+        border-style: double;
+      }
+      .pr_icon {
+        margin-top: -45px;
+        width: 150px;
+        border-radius: 75px;
+        border-style: outset;
+        border-color: fuchsia;
+      }
+      .pick {
+        width: 120px;
+        border-style: double;
+        border-color: pink;
+        margin-top: 20px;
+      }
+      .ban {
+        width: 120px;
+        border-style: double;
+        border-color: red;
+        margin-top: 20px;
+      }
+      ul {
+        display: inline;
+        vertical-align: middle;
+      }
+      .title {
+        font-family: 'Kantumruy Pro', sans-serif;
+      }
+
+      .quotation {
+        font-family: 'Merriweather', serif;
+      }
+
+/*
+font-family: 'Finlandica', sans-serif;
+font-family: 'Kantumruy Pro', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'PT Sans', sans-serif;
