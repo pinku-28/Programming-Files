@@ -5,33 +5,116 @@
         font-size: 100px;
       }
     body {
-        background-image: url(./covers/header.jpeg);
+        margin: 0;
+        background-image: url(./covers/Sessions_Diana_Wallpaper_5_16x9.jpeg);
         background-position: top,;
         background-repeat: no-repeat;
         background-attachment: fixed;
       }
-     .pinku {
+      .header {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 75px;
 
+        text-align: center;
+        color: aliceblue;
+
+        background-image: url(./covers/284114223_2464076937065499_6142168217693722057_n.png);
+        background-position-x: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+        display: grid;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 520px;
+        
+      }
+      .container {
+        width: 100vw;
+
+        font-family: 'Kantumruy Pro', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+
+        display: grid;
+
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        gap: 25px;
+
+        padding: 10px;
+        box-sizing: border-box;
+
+        color:whitesmoke
+
+      }
+      .container div {
+        backdrop-filter: blur(4px);
+
+        padding: 10px;
+        border: 1px solid #000000;
+      }
+      .element_pick {
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+     .player_1 {
         border-style:double;
         text-align: center;
-        background-image: url(https://cdna.artstation.com/p/assets/images/images/004/706/540/large/esben-lash-rasmussen-riot-lol-bloodmoon-jihn-el-v017-copy.jpg?1485675031);
-        background-position: top, center;
         background-repeat: no-repeat;
+        background-image: url(./covers/\(transparent\)bloodmoon\ jhin.png);
+        background-position-x: center;
       }
-      .ign  {
-        font-family: 'Finlandica', sans-serif;
-        border
-        border-style: double;
+      .player_2 {
+        border-style:double;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-image: url(./covers/battle_queen_katarina_png___render_by_divoras_dei2e27-fullview.png);
+        background-position-x: center;
       }
-      .content {
-        border-style: double;
+      .player_3 {
+        border-style:double;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-image: url(./covers/leona.png);
+        background-position: -40px, bottom;
       }
       .pr_icon {
         margin-top: -45px;
         width: 150px;
         border-radius: 75px;
-        border-style: outset;
-        border-color: fuchsia;
+        border-style:inherit;
+        border-color: gold;
+      }
+      .level {
+        margin-top: -30px;
+      }
+      .ign  {
+        font-family: 'Finlandica', sans-serif;
+        margin-top: 0px;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .title {
+        font-family: 'Kantumruy Pro', sans-serif;
+        font-size: 25px;
+        margin-top: -30px;
+        font-weight: normal;
+      }
+
+      .quotation {
+        font-family: 'Kantumruy Pro', serif;
+        font-size: 20px;
+        font-weight: lighter;
+        margin-top: -20px;
+        margin-bottom: 70px;
+      }
+      .mastery {
+        width: 135px;
+        margin-top: -147px;
       }
       .pick {
         width: 120px;
@@ -45,20 +128,11 @@
         border-color: red;
         margin-top: 20px;
       }
-      ul {
-        display: inline;
-        vertical-align: middle;
-      }
-      .title {
-        font-family: 'Kantumruy Pro', sans-serif;
-      }
 
-      .quotation {
-        font-family: 'Merriweather', serif;
-      }
 
 /*
 font-family: 'Finlandica', sans-serif;
 font-family: 'Kantumruy Pro', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'PT Sans', sans-serif;
+font-family: 'Bebas Neue', cursive;
